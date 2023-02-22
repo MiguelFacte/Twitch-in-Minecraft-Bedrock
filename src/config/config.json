@@ -1,0 +1,12 @@
+{
+  "port": "9090",
+  "twitch": [
+    {
+      "channels": [
+        "MiguelFacte",
+        "CHANNEL_2"
+      ],
+      "password": "twitch Client Secret"
+    }
+  ]
+}
