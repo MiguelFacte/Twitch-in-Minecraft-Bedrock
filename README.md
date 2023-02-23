@@ -32,7 +32,7 @@ You must fill the [config.json](https://github.com/MiguelFacte/Twitch-in-Minecra
 ```
 
 ## Run the WebSocket
-To run the bot, you have to open a console and run the following command
+To run the WebSocket, you have to open a console and run the following command
 ```sh
 node .
 ```
