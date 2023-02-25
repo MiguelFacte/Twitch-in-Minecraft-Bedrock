@@ -102,12 +102,12 @@ wss.on('connection', (socket, req) => {
 });
 
 process.on('unhandledRejection', (error, promise) => {
-    console.error(`\x1b[${new Date().toLocaleString()}]\x1b[0m ` + `unhandledRejection:`, error);
+    console.error(`\x1b[31m[${new Date().toLocaleString()}]\x1b[0m ` + `unhandledRejection:`, error);
 });
 process.on("uncaughtException", (err, origin) => {
-    console.error(`\x1b[${new Date().toLocaleString()}]\x1b[0m ` + `uncaughtException:`, err);
+    console.error(`\x1b[31m[${new Date().toLocaleString()}]\x1b[0m ` + `uncaughtException:`, err);
 });
 process.on("uncaughtExceptionMonitor", (err, origin) => {
-    console.error(`\x1b[${new Date().toLocaleString()}]\x1b[0m ` + `uncaughtExceptionMonitor:`, err);
+    console.error(`\x1b[31m[${new Date().toLocaleString()}]\x1b[0m ` + `uncaughtExceptionMonitor:`, err);
 });
 process.on("multipleResolves", () => { });
